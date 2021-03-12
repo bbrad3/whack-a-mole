@@ -1,0 +1,20 @@
+HTML/CSS 
+    - title at top of screen
+    - create a grid of 9 squares
+    - have a start game button
+    - have a div to keep track of players score
+
+JS
+    - on game start, mole pops up in a random box, the game timer starts
+    - the mole stays in the box for n seconds, then moves to another random box
+    - if the player clicks the mole, add 1 to the score
+        - grab score from dom
+        - clickListener on imgs
+            - if(correct){add to score}else{we wont}
+    - at the end of the game an alert shows "GAME OVER" and the players score
+
+BONUS
+    - Highscore list
+    - reset score
+    - reset gameboard
+    - then we can hit start again

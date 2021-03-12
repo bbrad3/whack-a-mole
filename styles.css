@@ -1,0 +1,46 @@
+* {
+    border: 1px solid gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.game {
+    display: flex;
+
+}
+
+.scoreboard {
+    width: 20%;
+}
+
+.startBtn {
+    background-color: green;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 30%;
+    height: 30vw;
+    margin: 0 auto;
+}
+
+.square {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 85, 89, 0.495);
+}
+
+.modeSelected {
+    background-color: rgb(234, 112, 112);
+}
+
