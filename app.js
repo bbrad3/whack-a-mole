@@ -1,7 +1,6 @@
 console.log('hello from app.js')
 
 // grab HTML elemnts
-const squares = document.querySelectorAll('.square')
 const imgs = document.querySelectorAll('img')
 const startBtn = document.querySelector('.startBtn')
 const currentScore = document.querySelector('#currentScore')

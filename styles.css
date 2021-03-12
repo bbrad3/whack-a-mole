@@ -1,5 +1,5 @@
-* {
-    border: 1px solid gray;
+body {
+    font-size: 30px;
 }
 
 h1 {
@@ -14,15 +14,24 @@ img {
 
 .game {
     display: flex;
-
 }
 
 .scoreboard {
-    width: 20%;
+    width: 30%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: 5px;
+    font-size: 1rem;
 }
 
 .startBtn {
     background-color: green;
+
 }
 
 .gameboard {
@@ -37,7 +46,20 @@ img {
 .square {
     width: 100%;
     height: 100%;
-    background-color: rgba(86, 85, 89, 0.495);
+    background-color: rgba(86, 85, 89, 0.2);
+}
+
+.square:nth-of-type(-n+3) {
+    border-bottom: 1px solid black;
+}
+
+.square:nth-of-type(n+7) {
+    border-top: 1px solid black;
+}
+
+.square:nth-of-type(3n-1) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .modeSelected {
